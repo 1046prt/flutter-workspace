@@ -1,0 +1,5 @@
+# VS Code workspace settings (keep launch configs but ignore user-specific settings)
+.vscode/settings.json
+
+# macOS
+.DS_Store

@@ -1,0 +1,55 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter: Current Project (Chrome)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "deviceId": "chrome",
+      "cwd": "${fileDirname}"
+    },
+    {
+      "name": "Flutter: Current Project (Device)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "cwd": "${fileDirname}"
+    },
+    {
+      "name": "Flutter: Calculator (Chrome)",
+      "request": "launch",
+      "type": "dart",
+      "program": "${workspaceFolder}/calculator/lib/main.dart",
+      "flutterMode": "debug",
+      "deviceId": "chrome",
+      "cwd": "${workspaceFolder}/calculator"
+    },
+    {
+      "name": "Flutter: Calculator (Device)",
+      "request": "launch",
+      "type": "dart",
+      "program": "${workspaceFolder}/calculator/lib/main.dart",
+      "flutterMode": "debug",
+      "cwd": "${workspaceFolder}/calculator"
+    },
+    {
+      "name": "Flutter: To-Do (Chrome)",
+      "request": "launch",
+      "type": "dart",
+      "program": "${workspaceFolder}/to-do/lib/main.dart",
+      "flutterMode": "debug",
+      "deviceId": "chrome",
+      "cwd": "${workspaceFolder}/to-do"
+    },
+    {
+      "name": "Flutter: To-Do (Device)",
+      "request": "launch",
+      "type": "dart",
+      "program": "${workspaceFolder}/to-do/lib/main.dart",
+      "flutterMode": "debug",
+      "cwd": "${workspaceFolder}/to-do"
+    }
+  ],
+  "compounds": []
+}
